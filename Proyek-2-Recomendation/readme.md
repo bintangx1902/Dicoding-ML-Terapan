@@ -266,6 +266,8 @@ buku. Proses ini dimulai dengan membangun matriks TF-IDF untuk masing-masing kat
    Dengan menggunakan matriks TF-IDF ini, sistem rekomendasi dapat lebih baik dalam memahami dan merekomendasikan buku
    berdasarkan kategori yang relevan.
 
+## Model and Result
+
 ### _Cosine Similarity_
 
 Setelah data diubah menjadi vektor TF-IDF, kemiripan antara buku dihitung menggunakan Cosine Similarity. Hasil ini
