@@ -289,9 +289,8 @@ Time
 Machine and the Invisible Man._" Ini menunjukkan bahwa buku "_LIE TO ME_" memiliki tingkat kemiripan yang tinggi dengan
 ketiga buku tersebut berdasarkan data yang ada.
 
-Di tahap sebelumnya, data sudah di-vektorisasi dan dicari similarity degree. Untuk mengetahui seberapa baik model dalam
-memberikan sebuah rekomendasi, dapat dibuat sebuah fungsi yang akan menerima parameter `nama_buku`, `similarity_data`,
-`items`, dan `k` dengan definisi masing-masing parameter sebagai berikut:
+Di tahap sebelumnya, data sudah di-vektorisasi dan dicari similarity degree. Untuk membuat sistem rekomendasi, sebuah
+fungsi dengan parameter `nama_buku`, `similarity_data`, `items`, dan `k`  dengan definisi sebagai berikut:
 
 - `nama_buku`: Nama buku yang akan dicari rekomendasinya.
 - `similarity_data`: DataFrame mengenai similarity yang telah dibuat di tahap sebelumnya.
@@ -356,7 +355,7 @@ Tabel 8. Hasil Rekomendasi.
 Pada tahap ini, Precision digunakan untuk mengevaluasi hasil dari rekomendasi pada Tabel 8. Precision dapat
 didefinisikan sebagai berikut:
 
-**Precision** = $\frac{r}{i}\$
+**Precision** = $\frac{r}{i}$
 
 - **r** = Total rekomendasi yang relevan
 - **i** = Jumlah rekomendasi yang diberikan
